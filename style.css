@@ -1,175 +1,80 @@
-/* ===== Reset ===== */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-}
+<!DOCTYPE html>
+<html lang="en">
 
-html {
-  scroll-behavior: smooth;
-}
-/* Navbar أفقي دائم */
-.navbar-horizontal {
-  display: flex;
-  position: sticky;
-  top: 0;
-  z-index: 1000; /* يخليه فوق أي عناصر تانية */
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 40px;
-  background: #26272b83;
-  border-bottom: 2px solid #ff7b0061;
-  flex-wrap: wrap;
-}
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Venom bot | Welcome to Future!</title>
+  <meta name="description" content="Cheer up your own server with Venom!">
+  <link rel="icon" src="src/logo.png" type="image/x-icon">
 
-.navbar-horizontal .navbar-brand img {
-  height: 50px;
-}
+  <!-- Bootstrap + Fonts -->
+  <link rel="stylesheet" href="style.css">
+  <link href="https://pro.fontawesome.com/releases/v5.11.2/css/all.css" rel="stylesheet" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-.navbar-menu {
-  display: flex;
-  gap: 25px;
-  list-style: none;
-}
-
-.navbar-menu .nav-link {
-  color: #fff;
-  font-weight: 500;
-  text-decoration: none;
-  transition: 0.3s;
-}
-.navbar-brand .allegro {
-    width: 50px;       /* حجم اللوجو */
-    height: 50px;
-    border-radius: 50%; /* تخليه دائري */
-    object-fit: cover;  /* يحافظ على تناسق الصورة داخل الدائرة */
-    border: 2px solid #ff7b00; /* اختياري: إطار برتقالي */
-}
-
-.navbar-menu .nav-link:hover {
-  color: #ff7b00;
-}
-.navbar-brand .allegro:hover {
-    transform: scale(1.1);
-    transition: 0.3s;
-}
-
-body {
-  background: #0c0c0c; /* أسود غامق */
-  color: #f5f5f5;
-  line-height: 1.6;
-}
-
-/* ===== Navbar ===== */
-nav.navbar {
-  background: #1a1a1a !important;
-  border-bottom: 2px solid #ff7b00;
-}
-nav.navbar .nav-link {
-  color: #f5f5f5 !important;
-  transition: 0.3s;
-}
-nav.navbar .nav-link:hover {
-  color: #ff7b00 !important;
-}
-nav.navbar .navbar-brand img {
-  height: 45px;
-}
-
-/* ===== Header ===== */
-.Header {
-  text-align: center;
-  padding: 100px 20px;
-  background: linear-gradient(135deg, #0c0c0c, #1a1a1a, #8c4400);
-  background-size: 200% 200%;
-  animation: gradientMove 8s ease infinite;
-  border-bottom: 3px solid #ff7b00;
-}
-.Header h1 {
-  font-size: 3rem;
-  font-weight: bold;
-  color: #ff7b00;
-}
-.Header p {
-  color: #ddd;
-  margin-top: 10px;
-}
-
-/* زر بإستايل جريدينت */
-.Button {
-  margin-top: 25px;
-  padding: 12px 28px;
-  background: linear-gradient(90deg, #ff7b00, #e36e00, #ff9d33);
-  background-size: 200% 200%;
-  color: #fff;
-  border: none;
-  border-radius: 8px;
-  font-weight: 600;
-  transition: 0.4s;
-}
-.Button:hover {
-  background-position: right center;
-  transform: scale(1.08);
-  background-color: #a85803;
-  box-shadow: 0 0 15px rgba(255, 123, 0, 0.6);
-}
-
-/* ===== Commands Section ===== */
-section {
-  margin-top: 60px;
-}
-section h2 {
-  color: #ff7b00;
-  margin-bottom: 30px;
-}
-#commands div {
-  background: #1a1a1a;
-  border: 1px solid #262626;
-  border-left: 5px solid #ff7b00;
-  border-radius: 10px;
-  padding: 20px;
-  color: #f5f5f5;
-  transition: 0.3s;
-}
-#commands div:hover {
-  background: linear-gradient(135deg, #0c0c0c, #1a1a1a, #663100);
-  background-size: 200% 200%;
-  animation: gradientMove 1s ease infinite;
-  border-bottom: 3px solid #cd6300;
-  transform: translateY(-5px);
-}
+  <!-- Tailwind (للتنسيق الحديث مع الأوامر) -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 
 
-/* ===== Footer ===== */
-footer {
-  background: #1a1a1a;
-  padding: 20px;
-  border-top: 2px solid #ff7b00;
-}
-footer p {
-  color: #aaa;
-  margin: 0;
-}
+</head>
 
-/* ===== Scrollbar ===== */
-::-webkit-scrollbar {
-  width: 10px;
-}
-::-webkit-scrollbar-track {
-  background: #111;
-}
-::-webkit-scrollbar-thumb {
-  background: linear-gradient(180deg, #ff7b00, #e36e00);
-  border-radius: 5px;
-}
-::-webkit-scrollbar-thumb:hover {
-  background: #ff9d33;
-}
+<body>
+  <!-- Navbar -->
+  <nav class="navbar-horizontal">
+  <a class="navbar-brand" href="#"><img class="allegro" src="src/logo.png" alt="Venom Bot"></a>
+  <ul class="navbar-menu">
+    <li><a class="nav-link" href="#home"><i class="fad fa-home"></i> Home</a></li>
+    <li><a class="nav-link" href="#commands"><i class="fad fa-list"></i> Commands</a></li>
+    <li><a class="nav-link" href="https://discord.gg/wMt26rD3bp"><i class="fab fa-discord"></i> Support Server</a></li>
+    <li><a class="nav-link" href="https://discord.com/oauth2/authorize?client_id=1051862055742873690&permissions=8&scope=applications.commands+bot"><i class="fad fa-user-plus"></i> Add to server</a></li>
+  </ul>
+</nav>
+  <!-- Navbar -->
 
-/* ===== Animations ===== */
-@keyframes gradientMove {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
-}
+  <!-- Header -->
+  <div class="Header" id="home">
+    <h1>Venom Bot</h1>
+    <p>Let your server get better with Venom</p>
+    <button onclick="location.href = 'https://discord.com/oauth2/authorize?client_id=1051862055742873690&permissions=8&scope=applications.commands+bot';"
+      class="Button">Add to server</button>
+  </div>
+  <!-- Header -->
+
+  <!-- Commands Section -->
+  <section class="max-w-5xl mx-auto py-16 px-4">
+    <h2 class="text-3xl font-bold mb-8 text-center"><i class="fad fa-list"></i> Commands</h2>
+    <div id="commands" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-6 border-t border-gray-800">
+    <p class="text-gray-500">© 2025 Venom Bot. All rights reserved.</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+
+    // تحميل الأوامر من JSON
+    fetch("commands.json")
+      .then(res => res.json())
+      .then(data => {
+        const container = document.getElementById("commands");
+        data.forEach(cmd => {
+          const div = document.createElement("div");
+          div.className = "p-6 bg-gray-800 rounded-xl shadow hover:bg-gray-700 transition";
+          div.innerHTML = `
+            <h3 class="text-xl font-semibold">.${cmd.name}</h3>
+            <p class="text-gray-400">${cmd.description || "No description"}</p>
+          `;
+          container.appendChild(div);
+        });
+      })
+      .catch(err => console.error("Error loading commands:", err));
+  </script>
+</body>
+</html>
