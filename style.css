@@ -1,0 +1,175 @@
+/* ===== Reset ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+/* Navbar أفقي دائم */
+.navbar-horizontal {
+  display: flex;
+  position: sticky;
+  top: 0;
+  z-index: 1000; /* يخليه فوق أي عناصر تانية */
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+  background: #26272b83;
+  border-bottom: 2px solid #ff7b0061;
+  flex-wrap: wrap;
+}
+
+.navbar-horizontal .navbar-brand img {
+  height: 50px;
+}
+
+.navbar-menu {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+}
+
+.navbar-menu .nav-link {
+  color: #fff;
+  font-weight: 500;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.navbar-brand .allegro {
+    width: 50px;       /* حجم اللوجو */
+    height: 50px;
+    border-radius: 50%; /* تخليه دائري */
+    object-fit: cover;  /* يحافظ على تناسق الصورة داخل الدائرة */
+    border: 2px solid #ff7b00; /* اختياري: إطار برتقالي */
+}
+
+.navbar-menu .nav-link:hover {
+  color: #ff7b00;
+}
+.navbar-brand .allegro:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+body {
+  background: #0c0c0c; /* أسود غامق */
+  color: #f5f5f5;
+  line-height: 1.6;
+}
+
+/* ===== Navbar ===== */
+nav.navbar {
+  background: #1a1a1a !important;
+  border-bottom: 2px solid #ff7b00;
+}
+nav.navbar .nav-link {
+  color: #f5f5f5 !important;
+  transition: 0.3s;
+}
+nav.navbar .nav-link:hover {
+  color: #ff7b00 !important;
+}
+nav.navbar .navbar-brand img {
+  height: 45px;
+}
+
+/* ===== Header ===== */
+.Header {
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(135deg, #0c0c0c, #1a1a1a, #8c4400);
+  background-size: 200% 200%;
+  animation: gradientMove 8s ease infinite;
+  border-bottom: 3px solid #ff7b00;
+}
+.Header h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #ff7b00;
+}
+.Header p {
+  color: #ddd;
+  margin-top: 10px;
+}
+
+/* زر بإستايل جريدينت */
+.Button {
+  margin-top: 25px;
+  padding: 12px 28px;
+  background: linear-gradient(90deg, #ff7b00, #e36e00, #ff9d33);
+  background-size: 200% 200%;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: 0.4s;
+}
+.Button:hover {
+  background-position: right center;
+  transform: scale(1.08);
+  background-color: #a85803;
+  box-shadow: 0 0 15px rgba(255, 123, 0, 0.6);
+}
+
+/* ===== Commands Section ===== */
+section {
+  margin-top: 60px;
+}
+section h2 {
+  color: #ff7b00;
+  margin-bottom: 30px;
+}
+#commands div {
+  background: #1a1a1a;
+  border: 1px solid #262626;
+  border-left: 5px solid #ff7b00;
+  border-radius: 10px;
+  padding: 20px;
+  color: #f5f5f5;
+  transition: 0.3s;
+}
+#commands div:hover {
+  background: linear-gradient(135deg, #0c0c0c, #1a1a1a, #663100);
+  background-size: 200% 200%;
+  animation: gradientMove 1s ease infinite;
+  border-bottom: 3px solid #cd6300;
+  transform: translateY(-5px);
+}
+
+
+/* ===== Footer ===== */
+footer {
+  background: #1a1a1a;
+  padding: 20px;
+  border-top: 2px solid #ff7b00;
+}
+footer p {
+  color: #aaa;
+  margin: 0;
+}
+
+/* ===== Scrollbar ===== */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #111;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #ff7b00, #e36e00);
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ff9d33;
+}
+
+/* ===== Animations ===== */
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}

@@ -1,0 +1,298 @@
+[
+    {
+        "name": "unmute",
+        "description": "السماح لشخص معين بالكتابة"
+    },
+    {
+        "name": "deleter",
+        "description": "حذف رتبة معينة"
+    },
+    {
+        "name": "trust",
+        "description": "جعل شخص يرى القناة الصوتية"
+    },
+    {
+        "name": "restart",
+        "description": "No description"
+    },
+    {
+        "name": "lock",
+        "description": "عدم السماح بالكتابة"
+    },
+    {
+        "name": "sclear",
+        "description": "clear queue"
+    },
+    {
+        "name": "sum",
+        "description": "No description"
+    },
+    {
+        "name": "shop",
+        "description": "شراء صورة ملف شخصي"
+    },
+    {
+        "name": "daily",
+        "description": "إستلام الراتب"
+    },
+    {
+        "name": "credit",
+        "description": "رؤية الكريدت الخاصة بشخص معين او التحويل له"
+    },
+    {
+        "name": "bot",
+        "description": "معلومات عن البوت"
+    },
+    {
+        "name": "play",
+        "description": "No description"
+    },
+    {
+        "name": "temp",
+        "description": "إستنساخ الخادم"
+    },
+    {
+        "name": "select",
+        "description": "select roles"
+    },
+    {
+        "name": "nick",
+        "description": "تغيير اسم شخص معين"
+    },
+    {
+        "name": "embed",
+        "description": "كتابة كلام في حقل"
+    },
+    {
+        "name": "move",
+        "description": "نقل شخص إلى قناتك الصوتية"
+    },
+    {
+        "name": "unlock",
+        "description": "السماح بالكتابة"
+    },
+    {
+        "name": "sremove",
+        "description": "remove song from queue"
+    },
+    {
+        "name": "roles",
+        "description": "إظهار جميع الرتب في السيرفر"
+    },
+    {
+        "name": "ticket",
+        "description": "setup a ticket"
+    },
+    {
+        "name": "hide",
+        "description": "إخفاء القناة"
+    },
+    {
+        "name": "skip",
+        "description": "No description"
+    },
+    {
+        "name": "ask",
+        "description": "الاسئلة المتنوعة"
+    },
+    {
+        "name": "banner",
+        "description": "No description"
+    },
+    {
+        "name": "off",
+        "description": "No description"
+    },
+    {
+        "name": "flag",
+        "description": "No description"
+    },
+    {
+        "name": "gleave",
+        "description": "خروج من السيرفر"
+    },
+    {
+        "name": "gamers",
+        "description": "إنشاء تذكرة"
+    },
+    {
+        "name": "roleall",
+        "description": "إعطاء رتبة لجميع الاعضاء"
+    },
+    {
+        "name": "edit",
+        "description": "تعديل حقل معين"
+    },
+    {
+        "name": "ban",
+        "description": "حظر شخص من الدخول إلى الخادم"
+    },
+    {
+        "name": "clear",
+        "description": "حذف الدردشة"
+    },
+    {
+        "name": "seek",
+        "description": "No description"
+    },
+    {
+        "name": "show",
+        "description": "إظهار القناة"
+    },
+    {
+        "name": "stop",
+        "description": "No description"
+    },
+    {
+        "name": "avatar",
+        "description": "رؤية الصورة الشخصية لشخص"
+    },
+    {
+        "name": "on",
+        "description": "No description"
+    },
+    {
+        "name": "bad",
+        "description": "Add a bad word to the list"
+    },
+    {
+        "name": "minus",
+        "description": "No description"
+    },
+    {
+        "name": "unroleall",
+        "description": "إعطاء رتبة لجميع الاعضاء"
+    },
+    {
+        "name": "server",
+        "description": "معلومات الخادم"
+    },
+    {
+        "name": "close",
+        "description": "إغلاق التذكرة"
+    },
+    {
+        "name": "say",
+        "description": "الكتابة بإستخدام البوت"
+    },
+    {
+        "name": "unban",
+        "description": "فك الحظر عن شخص معين"
+    },
+    {
+        "name": "volume",
+        "description": "No description"
+    },
+    {
+        "name": "interface",
+        "description": "No description"
+    },
+    {
+        "name": "rename",
+        "description": "تغيير اسم القناة"
+    },
+    {
+        "name": "pause",
+        "description": "No description"
+    },
+    {
+        "name": "ach",
+        "description": "رؤية عدد نقاط الإنجازات"
+    },
+    {
+        "name": "setup",
+        "description": "تأسيس الخادم"
+    },
+    {
+        "name": "rbad",
+        "description": "Remove a bad word from the list"
+    },
+    {
+        "name": "fast",
+        "description": "No description"
+    },
+    {
+        "name": "kick",
+        "description": "طرد شخص من الخادم"
+    },
+    {
+        "name": "join",
+        "description": "No description"
+    },
+    {
+        "name": "delete",
+        "description": "delete a channel/thread"
+    },
+    {
+        "name": "rshow",
+        "description": "جعل القناة مرئية لرتبة معينة"
+    },
+    {
+        "name": "user",
+        "description": "رؤية الملف الشخصي "
+    },
+    {
+        "name": "resume",
+        "description": "No description"
+    },
+    {
+        "name": "list",
+        "description": "Show the list of bad words"
+    },
+    {
+        "name": "kill",
+        "description": "No description"
+    },
+    {
+        "name": "cleanup_local_data",
+        "description": "No description"
+    },
+    {
+        "name": "timeout",
+        "description": "حظر من الكلام"
+    },
+    {
+        "name": "add",
+        "description": "إضافة شخص إلى القناة"
+    },
+    {
+        "name": "leave",
+        "description": "No description"
+    },
+    {
+        "name": "help",
+        "description": "عرض الأوامر الخاصة بالبوت"
+    },
+    {
+        "name": "rhide",
+        "description": "جعل القناة مخفية لرتبة معينة"
+    },
+    {
+        "name": "rank",
+        "description": "No description"
+    },
+    {
+        "name": "queue",
+        "description": "No description"
+    },
+    {
+        "name": "ping",
+        "description": "سرعة إستجابة البوت"
+    },
+    {
+        "name": "mute",
+        "description": "كتم شخص معين"
+    },
+    {
+        "name": "role",
+        "description": "إعطاء/سحب رتبة من عضو معين"
+    },
+    {
+        "name": "remove",
+        "description": "إزالة شخص من القناة"
+    },
+    {
+        "name": "uptime",
+        "description": "مدة إتصال البوت"
+    }
+]
