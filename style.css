@@ -1,80 +1,159 @@
-<!DOCTYPE html>
-<html lang="en">
+/* ===== Reset ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
 
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Venom bot | Welcome to Future!</title>
-  <meta name="description" content="Cheer up your own server with Venom!">
-  <link rel="icon" src="src/logo.png" type="image/x-icon">
+html {
+  scroll-behavior: smooth;
+}
 
-  <!-- Bootstrap + Fonts -->
-  <link rel="stylesheet" href="style.css">
-  <link href="https://pro.fontawesome.com/releases/v5.11.2/css/all.css" rel="stylesheet" />
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+body {
+  background: #0b0b0f; /* أسود داكن أكثر جمالًا */
+  color: #e5e5e5;
+  line-height: 1.6;
+}
 
-  <!-- Tailwind (للتنسيق الحديث مع الأوامر) -->
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+/* ===== Navbar ===== */
+.navbar-horizontal {
+  display: flex;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+  background: rgba(38, 39, 43, 0.85);
+  border-bottom: 2px solid rgba(255, 123, 0, 0.6);
+  flex-wrap: wrap;
+}
 
+.navbar-horizontal .navbar-brand img.allegro {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #ff8c00;
+  transform: scale(1.1) rotate(360deg);
+  transition: transform 1s;
+}
+.navbar-horizontal .navbar-brand img.allegro:hover {
+  transform: scale(1.1) rotate(0deg) ;
+}
 
-</head>
+.navbar-menu {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+}
+.navbar-menu .nav-link {
+  color: #fff;
+  font-weight: 500;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.navbar-menu .nav-link:hover {
+  color: #ff8c00;
+}
 
-<body>
-  <!-- Navbar -->
-  <nav class="navbar-horizontal">
-  <a class="navbar-brand" href="#"><img class="allegro" src="src/logo.png" alt="Venom Bot"></a>
-  <ul class="navbar-menu">
-    <li><a class="nav-link" href="#home"><i class="fad fa-home"></i> Home</a></li>
-    <li><a class="nav-link" href="#commands"><i class="fad fa-list"></i> Commands</a></li>
-    <li><a class="nav-link" href="https://discord.gg/wMt26rD3bp"><i class="fab fa-discord"></i> Support Server</a></li>
-    <li><a class="nav-link" href="https://discord.com/oauth2/authorize?client_id=1051862055742873690&permissions=8&scope=applications.commands+bot"><i class="fad fa-user-plus"></i> Add to server</a></li>
-  </ul>
-</nav>
-  <!-- Navbar -->
+/* ===== Header ===== */
+.Header {
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(135deg, #0c0c0c, #1a1a1a, #b95a00);
+  background-size: 150% 150%; /* أقل من 200% لتخفيف الحمل */
+  border-bottom: 3px solid #ff7b00;
+  animation: gradientMoveFast 6s ease infinite; /* سرعة محسنة */
+}
 
-  <!-- Header -->
-  <div class="Header" id="home">
-    <h1>Venom Bot</h1>
-    <p>Let your server get better with Venom</p>
-    <button onclick="location.href = 'https://discord.com/oauth2/authorize?client_id=1051862055742873690&permissions=8&scope=applications.commands+bot';"
-      class="Button">Add to server</button>
-  </div>
-  <!-- Header -->
+.Header h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #ff7b00;
+}
+.Header p {
+  color: #ddd;
+  margin-top: 10px;
+}
 
-  <!-- Commands Section -->
-  <section class="max-w-5xl mx-auto py-16 px-4">
-    <h2 class="text-3xl font-bold mb-8 text-center"><i class="fad fa-list"></i> Commands</h2>
-    <div id="commands" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"></div>
-  </section>
+/* ===== Button ===== */
+.Button {
+  margin-top: 25px;
+  padding: 12px 28px;
+  background: linear-gradient(90deg, #ff8c00, #e36e00, #ffb347);
+  background-size: 200% 200%;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: 0.4s;
+}
+.Button:hover {
+  background-position: right center;
+  transform: scale(1.08);
+  box-shadow: 0 0 15px rgba(255, 140, 0, 0.6);
+}
 
-  <!-- Footer -->
-  <footer class="text-center py-6 border-t border-gray-800">
-    <p class="text-gray-500">© 2025 Venom Bot. All rights reserved.</p>
-  </footer>
+/* ===== Commands Section ===== */
+section {
+  margin-top: 60px;
+}
+section h2 {
+  color: #ff8c00;
+  margin-bottom: 30px;
+}
+#commands div {
+  background: #1f1f25;
+  border: 1px solid #2c2c34;
+  border-left: 5px solid #ff8c00;
+  border-radius: 10px;
+  padding: 20px;
+  color: #e5e5e5;
+  transition: all 0.5s ease;
+  background-size: 200% 200%;
+}
+#commands div:hover {
 
-  <!-- Scripts -->
-  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-    AOS.init();
+  background: linear-gradient(135deg, #0c0c0c, #1a1a1a, #cb5500);
+  background-size: 150% 150%; /* أقل من 200% لتخفيف الحمل */
+  border-bottom: 3px solid #ff7b00;
+  animation: gradientMoveFast 3.5s infinite; /* سرعة محسنة */
+  
+  transform: translateY(-20px) scale(1.02);
+  border-bottom: 3px solid #ffa500;
+}
 
-    // تحميل الأوامر من JSON
-    fetch("commands.json")
-      .then(res => res.json())
-      .then(data => {
-        const container = document.getElementById("commands");
-        data.forEach(cmd => {
-          const div = document.createElement("div");
-          div.className = "p-6 bg-gray-800 rounded-xl shadow hover:bg-gray-700 transition";
-          div.innerHTML = `
-            <h3 class="text-xl font-semibold">.${cmd.name}</h3>
-            <p class="text-gray-400">${cmd.description || "No description"}</p>
-          `;
-          container.appendChild(div);
-        });
-      })
-      .catch(err => console.error("Error loading commands:", err));
-  </script>
-</body>
-</html>
+/* ===== Footer ===== */
+footer {
+  background: #1f1f25;
+  padding: 20px;
+  border-top: 2px solid #ff8c00;
+}
+footer p {
+  color: #aaa;
+  margin: 0;
+}
+
+/* ===== Scrollbar ===== */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #111;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #ff8c00, #e36e00);
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ffb347;
+}
+
+/* ===== Animations ===== */
+@keyframes gradientMoveFast {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
