@@ -1,298 +1,274 @@
 [
     {
-        "name": "unmute",
-        "description": "السماح لشخص معين بالكتابة"
-    },
-    {
-        "name": "deleter",
-        "description": "حذف رتبة معينة"
-    },
-    {
-        "name": "trust",
-        "description": "جعل شخص يرى القناة الصوتية"
-    },
-    {
-        "name": "restart",
-        "description": "No description"
-    },
-    {
-        "name": "lock",
-        "description": "عدم السماح بالكتابة"
-    },
-    {
-        "name": "sclear",
-        "description": "clear queue"
-    },
-    {
-        "name": "sum",
-        "description": "No description"
-    },
-    {
-        "name": "shop",
-        "description": "شراء صورة ملف شخصي"
-    },
-    {
-        "name": "daily",
-        "description": "إستلام الراتب"
-    },
-    {
-        "name": "credit",
-        "description": "رؤية الكريدت الخاصة بشخص معين او التحويل له"
-    },
-    {
-        "name": "bot",
-        "description": "معلومات عن البوت"
-    },
-    {
-        "name": "play",
-        "description": "No description"
-    },
-    {
-        "name": "temp",
-        "description": "إستنساخ الخادم"
-    },
-    {
-        "name": "select",
-        "description": "select roles"
-    },
-    {
-        "name": "nick",
-        "description": "تغيير اسم شخص معين"
-    },
-    {
-        "name": "embed",
-        "description": "كتابة كلام في حقل"
-    },
-    {
-        "name": "move",
-        "description": "نقل شخص إلى قناتك الصوتية"
-    },
-    {
-        "name": "unlock",
-        "description": "السماح بالكتابة"
-    },
-    {
-        "name": "sremove",
-        "description": "remove song from queue"
+        "name": "ban",
+        "description": "Ban a member from the server."
     },
     {
         "name": "roles",
-        "description": "إظهار جميع الرتب في السيرفر"
+        "description": "Show all roles in the server."
+    },
+    {
+        "name": "queue",
+        "description": "Display the current music queue."
+    },
+    {
+        "name": "roles_menu",
+        "description": "Send the role selection menu."
+    },
+    {
+        "name": "volume",
+        "description": "Change the music volume (0-100)."
+    },
+    {
+        "name": "flag",
+        "description": "Flags game - Guess the country from the flag"
+    },
+    {
+        "name": "sum",
+        "description": "Solve a random addition question within 15 seconds."
+    },
+    {
+        "name": "banner",
+        "description": "View a user's banner."
+    },
+    {
+        "name": "rshow",
+        "description": "Allow a specific role to see the current channel."
+    },
+    {
+        "name": "unban",
+        "description": "Unban a member from the server using their ID."
+    },
+    {
+        "name": "roleall",
+        "description": "Give a specific role to all members who have another role."
+    },
+    {
+        "name": "ping",
+        "description": "Check the bot's response time (latency)."
+    },
+    {
+        "name": "play",
+        "description": "No description provided."
+    },
+    {
+        "name": "join",
+        "description": "Make the bot join your voice channel."
+    },
+    {
+        "name": "shop",
+        "description": "Buy a background for your profile"
+    },
+    {
+        "name": "xo",
+        "description": "Tic Tac Toe with buttons"
+    },
+    {
+        "name": "sub",
+        "description": "Solve a random subtraction question within 15 seconds."
+    },
+    {
+        "name": "avatar",
+        "description": "View a user's avatar/profile picture."
+    },
+    {
+        "name": "rhide",
+        "description": "Hide the current channel from a specific role."
+    },
+    {
+        "name": "kick",
+        "description": "Kick a member from the server."
+    },
+    {
+        "name": "unroleall",
+        "description": "Remove a specific role from all members in the server."
+    },
+    {
+        "name": "stop",
+        "description": "No description provided."
+    },
+    {
+        "name": "uptime",
+        "description": "Show how long the bot has been online."
+    },
+    {
+        "name": "leave",
+        "description": "Make the bot leave the voice channel."
+    },
+    {
+        "name": "close",
+        "description": "close the ticket"
+    },
+    {
+        "name": "click",
+        "description": "⚡ Reaction Speed Game"
+    },
+    {
+        "name": "mul",
+        "description": "Solve a random multiplication question within 15 seconds."
+    },
+    {
+        "name": "user",
+        "description": "View a user's profile, including global and local stats."
+    },
+    {
+        "name": "lock",
+        "description": "Prevent everyone from sending messages in the channel."
+    },
+    {
+        "name": "timeout",
+        "description": "Temporarily mute a member from sending messages."
+    },
+    {
+        "name": "add",
+        "description": "Grant a member access to the current text channel."
+    },
+    {
+        "name": "botinfo",
+        "description": "Display detailed information about the bot."
     },
     {
         "name": "ticket",
         "description": "setup a ticket"
     },
     {
-        "name": "hide",
-        "description": "إخفاء القناة"
+        "name": "delete",
+        "description": "delete a channel/thread"
     },
     {
-        "name": "skip",
-        "description": "No description"
-    },
-    {
-        "name": "ask",
-        "description": "الاسئلة المتنوعة"
-    },
-    {
-        "name": "banner",
-        "description": "No description"
-    },
-    {
-        "name": "off",
-        "description": "No description"
-    },
-    {
-        "name": "flag",
-        "description": "No description"
-    },
-    {
-        "name": "gleave",
-        "description": "خروج من السيرفر"
-    },
-    {
-        "name": "gamers",
-        "description": "إنشاء تذكرة"
-    },
-    {
-        "name": "roleall",
-        "description": "إعطاء رتبة لجميع الاعضاء"
-    },
-    {
-        "name": "edit",
-        "description": "تعديل حقل معين"
-    },
-    {
-        "name": "ban",
-        "description": "حظر شخص من الدخول إلى الخادم"
-    },
-    {
-        "name": "clear",
-        "description": "حذف الدردشة"
-    },
-    {
-        "name": "seek",
-        "description": "No description"
-    },
-    {
-        "name": "show",
-        "description": "إظهار القناة"
-    },
-    {
-        "name": "stop",
-        "description": "No description"
-    },
-    {
-        "name": "avatar",
-        "description": "رؤية الصورة الشخصية لشخص"
-    },
-    {
-        "name": "on",
-        "description": "No description"
+        "name": "load",
+        "description": "No description provided."
     },
     {
         "name": "bad",
-        "description": "Add a bad word to the list"
+        "description": "Add a new word to the blocked words list."
     },
     {
-        "name": "minus",
-        "description": "No description"
+        "name": "div",
+        "description": "Solve a random division question within 15 seconds."
     },
     {
-        "name": "unroleall",
-        "description": "إعطاء رتبة لجميع الاعضاء"
+        "name": "rank",
+        "description": "No description provided."
     },
     {
-        "name": "server",
-        "description": "معلومات الخادم"
+        "name": "unlock",
+        "description": "Allow everyone to send messages in the channel."
     },
     {
-        "name": "close",
-        "description": "إغلاق التذكرة"
+        "name": "nick",
+        "description": "Change a member's nickname."
     },
     {
-        "name": "say",
-        "description": "الكتابة بإستخدام البوت"
+        "name": "remove",
+        "description": "Remove a member from the current text channel."
     },
     {
-        "name": "unban",
-        "description": "فك الحظر عن شخص معين"
-    },
-    {
-        "name": "volume",
-        "description": "No description"
+        "name": "send_rules",
+        "description": "Send the server rules to the rules channel."
     },
     {
         "name": "interface",
-        "description": "No description"
+        "description": "No description provided."
     },
     {
-        "name": "rename",
-        "description": "تغيير اسم القناة"
+        "name": "showcmds",
+        "description": "show all commands from json"
     },
     {
-        "name": "pause",
-        "description": "No description"
+        "name": "rbad",
+        "description": "Remove a word from the blocked words list."
     },
     {
-        "name": "ach",
-        "description": "رؤية عدد نقاط الإنجازات"
+        "name": "fast",
+        "description": "Type the word faster than anyone else."
+    },
+    {
+        "name": "temp",
+        "description": "Create a temporary clone of the server."
+    },
+    {
+        "name": "clear",
+        "description": "Delete a specific number of messages (default: 100)."
+    },
+    {
+        "name": "hide",
+        "description": "Hide the current channel from everyone."
+    },
+    {
+        "name": "trust",
+        "description": "Allow a member to view your voice channel."
+    },
+    {
+        "name": "role",
+        "description": "Give or remove a specific role from a member."
     },
     {
         "name": "setup",
         "description": "تأسيس الخادم"
     },
     {
-        "name": "rbad",
-        "description": "Remove a bad word from the list"
+        "name": "help",
+        "description": "Display a list of all available bot commands with detailed info."
     },
     {
-        "name": "fast",
-        "description": "No description"
-    },
-    {
-        "name": "kick",
-        "description": "طرد شخص من الخادم"
-    },
-    {
-        "name": "join",
-        "description": "No description"
-    },
-    {
-        "name": "delete",
-        "description": "delete a channel/thread"
-    },
-    {
-        "name": "rshow",
-        "description": "جعل القناة مرئية لرتبة معينة"
-    },
-    {
-        "name": "user",
-        "description": "رؤية الملف الشخصي "
+        "name": "badlist",
+        "description": "Display all blocked words in the list."
     },
     {
         "name": "resume",
-        "description": "No description"
+        "description": "No description provided."
     },
     {
-        "name": "list",
-        "description": "Show the list of bad words"
+        "name": "guess",
+        "description": "Guess the number between 1 and 20."
     },
     {
-        "name": "kill",
-        "description": "No description"
+        "name": "pause",
+        "description": "No description provided."
     },
     {
-        "name": "cleanup_local_data",
-        "description": "No description"
+        "name": "skip",
+        "description": "No description provided."
     },
     {
-        "name": "timeout",
-        "description": "حظر من الكلام"
+        "name": "daily",
+        "description": "Claim your daily credits (24-hour cooldown)."
     },
     {
-        "name": "add",
-        "description": "إضافة شخص إلى القناة"
+        "name": "gleave",
+        "description": "Make the bot leave the server."
     },
     {
-        "name": "leave",
-        "description": "No description"
+        "name": "show",
+        "description": "Make the current channel visible for everyone."
     },
     {
-        "name": "help",
-        "description": "عرض الأوامر الخاصة بالبوت"
+        "name": "move",
+        "description": "Move a member to your current voice channel."
     },
     {
-        "name": "rhide",
-        "description": "جعل القناة مخفية لرتبة معينة"
+        "name": "deleter",
+        "description": "Delete a specific role from the server."
     },
     {
-        "name": "rank",
-        "description": "No description"
+        "name": "restart",
+        "description": "No description provided."
     },
     {
-        "name": "queue",
-        "description": "No description"
+        "name": "tf",
+        "description": "Answer with True or False."
     },
     {
-        "name": "ping",
-        "description": "سرعة إستجابة البوت"
+        "name": "server",
+        "description": "Show detailed information about the server."
     },
     {
-        "name": "mute",
-        "description": "كتم شخص معين"
+        "name": "credit",
+        "description": "Check a user's credit balance or transfer credits to them."
     },
     {
-        "name": "role",
-        "description": "إعطاء/سحب رتبة من عضو معين"
-    },
-    {
-        "name": "remove",
-        "description": "إزالة شخص من القناة"
-    },
-    {
-        "name": "uptime",
-        "description": "مدة إتصال البوت"
+        "name": "rename",
+        "description": "Change the name of the current channel."
     }
 ]
