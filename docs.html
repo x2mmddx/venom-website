@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <title>Venom — Bot Documentation</title>
+  <link rel="stylesheet" href="doc.css">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- AOS Animation -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+</head>
+<body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 300, // سرعة الأنيميشن (ms)
+    once: true
+  });
+</script>
+
+<div class="wrap">
+
+  <!-- ===== Header ===== -->
+  <header>
+    <div class="logo">⚡ Venom Docs</div>
+
+    <div id="menuToggle">☰</div>
+    <nav id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="docs.html" class="active">Docs</a>
+      <a href="#faq">FAQ</a>
+      <a href="#support">Support</a>
+    </nav>
+  </header>
+
+  <!-- ===== Docs Hero ===== -->
+  <section class="hero">
+    <div class="hero-content" data-aos="fade-up">
+      <h1>📘 Venom Bot Documentation</h1>
+      <p>Complete guide for all commands, features, and setup instructions.</p>
+      <div class="hero-actions">
+        <a href="https://discord.com/oauth2/authorize?client_id=1051862055742873690&permissions=8&scope=applications.commands+bot" target="_blank" class="btn btn-primary">🚀 Invite Bot</a>
+        <a href="https://discord.gg/wMt26rD3bp" target="_blank" class="btn btn-outline">💬 Support Server</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Commands Documentation ===== -->
+
+  <!-- ===== Example Section ===== -->
+  <section id="examples">
+  <h2>💡 Usage Examples</h2>
+
+  <!-- Moderation Commands -->
+  <div class="grid-3">
+    <div class="card" data-aos="fade-up">
+      <h3>Moderation</h3>
+      <p><code>.ban @user [reason]</code> — Ban a member from the server.</p>
+      <p><code>.unban [ID]</code> — Unban a member using their ID.</p>
+      <p><code>.kick @user</code> — Kick a member from the server.</p>
+      <p><code>.timeout @user [duration]</code> — Temporarily mute a member from sending messages.</p>
+      <p><code>.lock</code> — Prevent everyone from sending messages in the channel.</p>
+      <p><code>.unlock</code> — Allow everyone to send messages in the channel.</p>
+      <p><code>.role @user [role]</code> — Give or remove a role from a member.</p>
+      <p><code>.clear [number]</code> — Delete a specific number of messages (default: 100).</p>
+      <p><code>.ticket</code> — Create and manage support tickets.</p>
+    </div>
+
+    <!-- Music Commands -->
+    <div class="card" data-aos="fade-up">
+      <h3>Music</h3>
+      <p><code>.play [song]</code> — Play a song in your voice channel.</p>
+      <p><code>.load [song]</code> — Play songs saved on the bot.</p>
+      <p><code>.stop</code> — Stop the music.</p>
+      <p><code>.pause</code> — Pause the current song.</p>
+      <p><code>.resume</code> — Resume paused music.</p>
+      <p><code>.skip</code> — Skip the current song.</p>
+      <p><code>.queue</code> — Display the current music queue.</p>
+      <p><code>.volume [0-100]</code> — Change the music volume.</p>
+      <p><code>.join</code> — Make the bot join your voice channel.</p>
+      <p><code>.leave</code> — Make the bot leave the voice channel.</p>
+    </div>
+
+    <!-- Fun Commands -->
+    <div class="card" data-aos="fade-up">
+      <h3>Fun</h3>
+      <p><code>.flag</code> — Guess the country from the flag.</p>
+      <p><code>.sum</code> — Solve a random addition question.</p>
+      <p><code>.sub</code> — Solve a random subtraction question.</p>
+      <p><code>.mul</code> — Solve a random multiplication question.</p>
+      <p><code>.div</code> — Solve a random division question.</p>
+      <p><code>.xo</code> — Tic Tac Toe with buttons.</p>
+      <p><code>.click</code> — Reaction Speed Game.</p>
+      <p><code>.fast</code> — Type the word faster than anyone else.</p>
+      <p><code>.guess</code> — Guess the number between 1 and 20.</p>
+      <p><code>.tf</code> — Answer with True or False.</p>
+    </div>
+
+    <!-- Utility Commands -->
+    <div class="card" data-aos="fade-up">
+      <h3>Utility</h3>
+      <p><code>.ping</code> — Check the bot's response time (latency).</p>
+      <p><code>.uptime</code> — Show how long the bot has been online.</p>
+      <p><code>.botinfo</code> — Display detailed information about the bot.</p>
+      <p><code>.server</code> — Show detailed information about the server.</p>
+      <p><code>.user @user</code> — View a user's profile, including global and local stats.</p>
+      <p><code>.avatar @user</code> — View a user's avatar/profile picture.</p>
+      <p><code>.banner @user</code> — View a user's banner.</p>
+      <p><code>.shop</code> — Buy a background for your profile.</p>
+      <p><code>.credit @user [amount]</code> — Check or transfer credits.</p>
+      <p><code>.daily</code> — Claim your daily credits (24-hour cooldown).</p>
+    </div>
+  </div>
+</section>
+
+
+  <!-- ===== Support ===== -->
+  <section id="support">
+    <h2>💬 Support</h2>
+    <p>If you face any issues, join our Discord support server or contact admins.</p>
+    <a href="https://discord.gg/wMt26rD3bp" target="_blank" class="btn btn-outline">Join Support Server</a>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer>
+    <div id="faq" class="faq">
+      <h3>FAQ</h3>
+      <details>
+        <summary>Is Venom free?</summary>
+        <p>Yes! Venom is free with optional premium features coming soon.</p>
+      </details>
+      <details>
+        <summary>How do I invite Venom?</summary>
+        <p>Click the "Invite Bot" button and authorize Venom in your server.</p>
+      </details>
+      <details>
+        <summary>Do you offer support?</summary>
+        <p>Yes, join our support Discord server for help.</p>
+      </details>
+    </div>
+    <div><p><strong>Venom</strong> — Built for communities • © 2025</p></div>
+  </footer>
+
+</div>
+
+<!-- Scripts -->
+<script src="script.js"></script>
+</body>
+</html>
