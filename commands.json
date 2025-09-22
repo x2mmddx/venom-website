@@ -1,274 +1,77 @@
-[
-    {
-        "name": "ban",
-        "description": "Ban a member from the server."
-    },
-    {
-        "name": "roles",
-        "description": "Show all roles in the server."
-    },
-    {
-        "name": "queue",
-        "description": "Display the current music queue."
-    },
-    {
-        "name": "roles_menu",
-        "description": "Send the role selection menu."
-    },
-    {
-        "name": "volume",
-        "description": "Change the music volume (0-100)."
-    },
-    {
-        "name": "flag",
-        "description": "Flags game - Guess the country from the flag"
-    },
-    {
-        "name": "sum",
-        "description": "Solve a random addition question within 15 seconds."
-    },
-    {
-        "name": "banner",
-        "description": "View a user's banner."
-    },
-    {
-        "name": "rshow",
-        "description": "Allow a specific role to see the current channel."
-    },
-    {
-        "name": "unban",
-        "description": "Unban a member from the server using their ID."
-    },
-    {
-        "name": "roleall",
-        "description": "Give a specific role to all members who have another role."
-    },
-    {
-        "name": "ping",
-        "description": "Check the bot's response time (latency)."
-    },
-    {
-        "name": "play",
-        "description": "No description provided."
-    },
-    {
-        "name": "join",
-        "description": "Make the bot join your voice channel."
-    },
-    {
-        "name": "shop",
-        "description": "Buy a background for your profile"
-    },
-    {
-        "name": "xo",
-        "description": "Tic Tac Toe with buttons"
-    },
-    {
-        "name": "sub",
-        "description": "Solve a random subtraction question within 15 seconds."
-    },
-    {
-        "name": "avatar",
-        "description": "View a user's avatar/profile picture."
-    },
-    {
-        "name": "rhide",
-        "description": "Hide the current channel from a specific role."
-    },
-    {
-        "name": "kick",
-        "description": "Kick a member from the server."
-    },
-    {
-        "name": "unroleall",
-        "description": "Remove a specific role from all members in the server."
-    },
-    {
-        "name": "stop",
-        "description": "No description provided."
-    },
-    {
-        "name": "uptime",
-        "description": "Show how long the bot has been online."
-    },
-    {
-        "name": "leave",
-        "description": "Make the bot leave the voice channel."
-    },
-    {
-        "name": "close",
-        "description": "close the ticket"
-    },
-    {
-        "name": "click",
-        "description": "⚡ Reaction Speed Game"
-    },
-    {
-        "name": "mul",
-        "description": "Solve a random multiplication question within 15 seconds."
-    },
-    {
-        "name": "user",
-        "description": "View a user's profile, including global and local stats."
-    },
-    {
-        "name": "lock",
-        "description": "Prevent everyone from sending messages in the channel."
-    },
-    {
-        "name": "timeout",
-        "description": "Temporarily mute a member from sending messages."
-    },
-    {
-        "name": "add",
-        "description": "Grant a member access to the current text channel."
-    },
-    {
-        "name": "botinfo",
-        "description": "Display detailed information about the bot."
-    },
-    {
-        "name": "ticket",
-        "description": "setup a ticket"
-    },
-    {
-        "name": "delete",
-        "description": "delete a channel/thread"
-    },
-    {
-        "name": "load",
-        "description": "No description provided."
-    },
-    {
-        "name": "bad",
-        "description": "Add a new word to the blocked words list."
-    },
-    {
-        "name": "div",
-        "description": "Solve a random division question within 15 seconds."
-    },
-    {
-        "name": "rank",
-        "description": "No description provided."
-    },
-    {
-        "name": "unlock",
-        "description": "Allow everyone to send messages in the channel."
-    },
-    {
-        "name": "nick",
-        "description": "Change a member's nickname."
-    },
-    {
-        "name": "remove",
-        "description": "Remove a member from the current text channel."
-    },
-    {
-        "name": "send_rules",
-        "description": "Send the server rules to the rules channel."
-    },
-    {
-        "name": "interface",
-        "description": "No description provided."
-    },
-    {
-        "name": "showcmds",
-        "description": "show all commands from json"
-    },
-    {
-        "name": "rbad",
-        "description": "Remove a word from the blocked words list."
-    },
-    {
-        "name": "fast",
-        "description": "Type the word faster than anyone else."
-    },
-    {
-        "name": "temp",
-        "description": "Create a temporary clone of the server."
-    },
-    {
-        "name": "clear",
-        "description": "Delete a specific number of messages (default: 100)."
-    },
-    {
-        "name": "hide",
-        "description": "Hide the current channel from everyone."
-    },
-    {
-        "name": "trust",
-        "description": "Allow a member to view your voice channel."
-    },
-    {
-        "name": "role",
-        "description": "Give or remove a specific role from a member."
-    },
-    {
-        "name": "setup",
-        "description": "تأسيس الخادم"
-    },
-    {
-        "name": "help",
-        "description": "Display a list of all available bot commands with detailed info."
-    },
-    {
-        "name": "badlist",
-        "description": "Display all blocked words in the list."
-    },
-    {
-        "name": "resume",
-        "description": "No description provided."
-    },
-    {
-        "name": "guess",
-        "description": "Guess the number between 1 and 20."
-    },
-    {
-        "name": "pause",
-        "description": "No description provided."
-    },
-    {
-        "name": "skip",
-        "description": "No description provided."
-    },
-    {
-        "name": "daily",
-        "description": "Claim your daily credits (24-hour cooldown)."
-    },
-    {
-        "name": "gleave",
-        "description": "Make the bot leave the server."
-    },
-    {
-        "name": "show",
-        "description": "Make the current channel visible for everyone."
-    },
-    {
-        "name": "move",
-        "description": "Move a member to your current voice channel."
-    },
-    {
-        "name": "deleter",
-        "description": "Delete a specific role from the server."
-    },
-    {
-        "name": "restart",
-        "description": "No description provided."
-    },
-    {
-        "name": "tf",
-        "description": "Answer with True or False."
-    },
-    {
-        "name": "server",
-        "description": "Show detailed information about the server."
-    },
-    {
-        "name": "credit",
-        "description": "Check a user's credit balance or transfer credits to them."
-    },
-    {
-        "name": "rename",
-        "description": "Change the name of the current channel."
-    }
-]
+{
+  "moderation": [
+    { "name": "ban", "description": "Ban a member from the server." },
+    { "name": "unban", "description": "Unban a member from the server using their ID." },
+    { "name": "kick", "description": "Kick a member from the server." },
+    { "name": "timeout", "description": "Temporarily mute a member from sending messages." },
+    { "name": "lock", "description": "Prevent everyone from sending messages in the channel." },
+    { "name": "unlock", "description": "Allow everyone to send messages in the channel." },
+    { "name": "hide", "description": "Hide the current channel from everyone." },
+    { "name": "show", "description": "Make the current channel visible for everyone." },
+    { "name": "rshow", "description": "Allow a specific role to see the current channel." },
+    { "name": "rhide", "description": "Hide the current channel from a specific role." },
+    { "name": "role", "description": "Give or remove a specific role from a member." },
+    { "name": "roleall", "description": "Give a specific role to all members who have another role." },
+    { "name": "unroleall", "description": "Remove a specific role from all members in the server." },
+    { "name": "deleter", "description": "Delete a specific role from the server." },
+    { "name": "nick", "description": "Change a member's nickname." },
+    { "name": "add", "description": "Grant a member access to the current text channel." },
+    { "name": "remove", "description": "Remove a member from the current text channel." },
+    { "name": "clear", "description": "Delete a specific number of messages (default: 100)." },
+    { "name": "bad", "description": "Add a new word to the blocked words list." },
+    { "name": "rbad", "description": "Remove a word from the blocked words list." },
+    { "name": "badlist", "description": "Display all blocked words in the list." },
+    { "name": "send_rules", "description": "Send the server rules to the rules channel." },
+    { "name": "setup", "description": "Initialize and configure the server" },
+    { "name": "interface", "description": "Control and manage temporary voice channels" },
+    { "name": "restart", "description": "Restart the bot safely" },
+    { "name": "ticket", "description": "Create and manage support tickets" }
+
+  ],
+  "music": [
+    { "name": "play", "description": "No description provided." },
+    { "name": "load", "description": "Play songs saved on the bot" },
+    { "name": "stop", "description": "No description provided." },
+    { "name": "pause", "description": "No description provided." },
+    { "name": "resume", "description": "No description provided." },
+    { "name": "skip", "description": "No description provided." },
+    { "name": "queue", "description": "Display the current music queue." },
+    { "name": "volume", "description": "Change the music volume (0-100)." },
+    { "name": "join", "description": "Make the bot join your voice channel." },
+    { "name": "leave", "description": "Make the bot leave the voice channel." }
+  ],
+  "fun": [
+    { "name": "flag", "description": "Flags game - Guess the country from the flag" },
+    { "name": "sum", "description": "Solve a random addition question within 15 seconds." },
+    { "name": "sub", "description": "Solve a random subtraction question within 15 seconds." },
+    { "name": "mul", "description": "Solve a random multiplication question within 15 seconds." },
+    { "name": "div", "description": "Solve a random division question within 15 seconds." },
+    { "name": "xo", "description": "Tic Tac Toe with buttons" },
+    { "name": "click", "description": "Reaction Speed Game" },
+    { "name": "fast", "description": "Type the word faster than anyone else." },
+    { "name": "guess", "description": "Guess the number between 1 and 20." },
+    { "name": "tf", "description": "Answer with True or False." }
+  ],
+  "utility": [
+    { "name": "ping", "description": "Check the bot's response time (latency)." },
+    { "name": "uptime", "description": "Show how long the bot has been online." },
+    { "name": "botinfo", "description": "Display detailed information about the bot." },
+    { "name": "server", "description": "Show detailed information about the server." },
+    { "name": "user", "description": "View a user's profile, including global and local stats." },
+    { "name": "avatar", "description": "View a user's avatar/profile picture." },
+    { "name": "banner", "description": "View a user's banner." },
+    { "name": "rank", "description": "No description provided." },
+    { "name": "shop", "description": "Buy a background for your profile" },
+    { "name": "credit", "description": "Check a user's credit balance or transfer credits to them." },
+    { "name": "daily", "description": "Claim your daily credits (24-hour cooldown)." },
+    { "name": "move", "description": "Move a member to your current voice channel." },
+    { "name": "trust", "description": "Allow a member to view your voice channel." },
+    { "name": "temp", "description": "Create a temporary clone of the server." },
+    { "name": "close", "description": "close the ticket" },
+    { "name": "interface", "description": "No description provided." },
+    { "name": "load", "description": "No description provided." },
+    { "name": "restart", "description": "No description provided." },
+    { "name": "help", "description": "Display a list of all available bot commands with detailed info." },
+    { "name": "gleave", "description": "Make the bot leave the server." }
+  ]
+}
